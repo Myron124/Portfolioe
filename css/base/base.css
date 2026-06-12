@@ -1,0 +1,58 @@
+.box{
+width: 90%;
+max-width: 743px;
+margin: 0 auto;
+}
+body {
+ font-family: 'Pepperoni';
+    src: url('../fonts/Pepperoni-Regular-V2.ttf') format('truetype');
+  font-size:30px;
+  line-height: 1.5;
+  color: var(#fff);
+  background: #ff0000;
+    background: linear-gradient(
+    to right,
+    #ff0000,#fdcf58
+  );
+}
+h1, h2, h3, h4, h5, h6, p {
+       margin: 0;
+}
+
+img, video, svg {
+  display: block; 
+  max-width: 100%;     
+  height: auto;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font: inherit;
+}
+
+input, textarea, select {
+  font: inherit;      
+}
+
+.container{
+    width:min(1200px,90%);
+    margin:0 auto;
+}
+
+.hero__card,
+.skills__block,
+.project-card,
+.contact__card{
+    border: 30px solid #1d2f52;
+}

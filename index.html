@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myron.dev</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container header__container">
+        <a href="#" class="logo">Портфоліо про Кірєєва Мирона    </a>
+        <input type="checkbox" id="burgermenu" class="header__input">
+        <label for="burgermenu" class="header__label">
+            <img src="img/burger.png" alt="" class="header__img header__img--burger">
+            <img src="img/close.png" alt="" class="header__img header__img--close">
+        </label>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#profile">Про мене</a></li>
+                <li class="nav__item"><a href="#hard-skills">Hard-skills</a></li>
+                <li class="nav__item"><a href="#soft-skills">Soft-skills</a></li>
+                <li class="nav__item"><a href="#Projects">Портфоліо</a></li>
+                <li class="nav__item"><a href="#Contacts">Контакти</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="main">
+
+    <section class="hero" id="profile">
+        <div class="container">
+            <div class="hero__card">
+
+                <div class="hero__content">
+                    <h1 class="hero__title">MYRON KIRIEV</h1>
+                    <h2 class="hero__subtitle">FRONTEND DEVELOPER</h2>
+                    <p class="hero__text">
+                        Створюю сучасні адаптивні сайти та лендинги.
+                    </p>
+
+                    <a href="https://my-cv-for-job.my.canva.site/" class="button">Download CV</a>
+                </div>
+
+                <img src="img/profile.jpg" alt="Profile"
+                     class="hero__image">
+            </div>
+        </div>
+    </section>
+
+    <section class="skills">
+        <div class="container">
+
+            <div class="skills__grid">
+
+                <div class="skills__block" id="hard-skills">
+                    <h2 class="skills__title">HARD SKILLS</h2>
+
+                    <div class="skills__list">
+                        <span class="skills__item">HTML</span>
+                        <span class="skills__item">CSS</span>
+                        <span class="skills__item">JS</span>
+                        <span class="skills__item">Figma</span>
+                        <span class="skills__item">GitHub</span>
+                    </div>
+                </div>
+
+                <div class="skills__block" id="soft-skills">
+                    <h2 class="skills__title">SOFT SKILLS</h2>
+
+                    <div class="skills__list">
+                        <span class="skills__item">Комунікація</span>
+                        <span class="skills__item">Робота в команді</span>
+                        <span class="skills__item">Відповідальність</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="container">
+
+            <h2 class="section-title">ПРОЄКТИ</h2>
+
+            <div class="projects__grid">
+
+                <article class="project-card">
+                    <img src="img/project1.jpg"
+                         alt="Portfolio"
+                         class="project-card__image">
+
+                    <h3 class="project-card__title">Portfolio</h3>
+
+                    <p class="project-card__text">
+                        Особисте портфоліо для роботи.
+                    </p>
+
+                    <div class="project-card__links">
+                        <a href="https://myron124.github.io/Portfolio-updated/">GitHub Pages</a>
+                        <a href="https://github.com/Myron124/Portfolio-updated">Repository</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="img/project2.jpg"
+                         alt="Landing"
+                         class="project-card__image">
+
+                    <h3 class="project-card__title">Подорож машиною часу по Івано-Франківську</h3>
+
+                    <p class="project-card__text">
+                        Проект про історію Івано-Франківська.
+                    </p>
+
+                    <div class="project-card__links">
+                        <a href="https://myron124.github.io/Travelling-throught-Ivano-Frankivsk/">GitHub Pages</a>
+                        <a href="https://github.com/Myron124/Travelling-throught-Ivano-Frankivsk">Repository</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="img/project3.jpg"
+                         alt="Todo"
+                         class="project-card__image">
+
+                    <h3 class="project-card__title">Ai-wallet</h3>
+
+                    <p class="project-card__text">
+                        Онлайн-гаманець з готовими курсами Євро та Доларів
+                    </p>
+
+                    <div class="project-card__links">
+                        <a href="https://myron124.github.io/Ai-wallet/">GitHub Pages</a>
+                        <a href="https://github.com/Myron124/Ai-wallet">Repository</a>
+                    </div>
+                </article>
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="contact" id="contact">
+        <div class="container">
+
+            <div class="contact__card">
+
+                <h2 class="section-title">ЗВОРОТНІЙ ЗВ'ЯЗОК</h2>
+
+                <form class="contact__form">
+
+                    <input
+                        type="text"
+                        placeholder="Ваше ім'я"
+                        class="contact__input">
+
+                    <input
+                        type="email"
+                        placeholder="Email"
+                        class="contact__input">
+
+                    <textarea
+                        placeholder="Повідомлення"
+                        class="contact__textarea"></textarea>
+
+                    <button class="contact__button">
+                        Надіслати
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+        <footer class="footer">
+  <div class="footer__info">
+                <h3 class="footer__logo">Myron.dev</h3>
+                <p class="footer__text">
+                    Frontend Developer • Portfolio
+                </p>
+            </div>
+
+            <div class="footer__socials">
+                <a href="https://t.me/Noise_Theodore" class="footer__link">Telegram</a>
+                <a href="https://www.instagram.com/kir.eevmiron07/" class="footer__link">Instagram</a>
+                <a href="https://github.com/Myron124" class="footer__link">GitHub</a>
+            </div>
+
+        </div>
+
+        <p class="footer__copyright">
+            © 2026 Myron Kiriev. Всі права захищені.
+        </p>
+
+    </div>
+</footer>
+</main>
+
+</body>
+</html>
